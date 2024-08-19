@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemDS"
+    android:orientation="vertical"
+    android:background="#F1F0F5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/txtHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textSize="25dp"
+            android:textColor="#1E88E5"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách Mới"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtXong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xong"
+            android:textSize="25dp"
+            android:textColor="#1E88E5"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vien"
+        android:backgroundTint="#ffffff"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/backColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list_launcher_foreground"
+                android:background="@drawable/botronicon"
+                android:backgroundTint="#249CD6"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edNameDS"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:hint="Tên danh sách"
+                android:background="@drawable/vien"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#249CD6"
+                android:gravity="center"
+                android:backgroundTint="#F0EFF4"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:backgroundTint="#ffffff"-->
+<!--        android:background="@drawable/vien"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/colorXanhBien"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#249CD6"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/colorVang"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#FDD835"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:id="@+id/colorCam"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#F14B17"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/colorHong"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#F80A8E"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/colorXanhLa"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#2FE837"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:id="@+id/colorTim"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#C63AEC"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/colorXam"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/tron_nho"-->
+<!--            android:backgroundTint="#919878"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>

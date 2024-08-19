@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/itemList"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/botrontk"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp">
+
+
+        <ImageView
+            android:id="@+id/nen"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/list_launcher_foreground"
+            android:background="@drawable/botron"
+            android:backgroundTint="#2196F3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="6"
+            android:text="To Do List"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:id="@+id/slDS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:textColor="#C3C1C1"
+
+            >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgSelect"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:src="@drawable/select_foreground">
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

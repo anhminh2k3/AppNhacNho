@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="switchThumbCheckedColor">#FFFFFF</color>
+    <color name="switchTrackColorChecked">#00FF00</color>
+    <color name="switchTrackColorUnChecked">#939893</color>
+
+
+</resources>

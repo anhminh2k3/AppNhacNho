@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/NameDSAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="To Do List"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDSAllChiTiet"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp" />
+
+
+
+
+
+</LinearLayout>
